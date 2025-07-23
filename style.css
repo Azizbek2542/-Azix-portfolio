@@ -1460,8 +1460,13 @@ body.dark-mode {
 
 .dark-mode .links-container a:hover,
 .dark-mode .home-link:hover {
-  color: aqua;
-  transition: 0.3s ease;
+  color: aqua !important;
+  transition: 0.3s ease !important;
+}
+
+.home-link:hover {
+  color: aqua !important;
+  transition: 0.3s ease !important;
 }
 
 .dark-mode .open-sdbr-svg,
