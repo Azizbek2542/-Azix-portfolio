@@ -194,7 +194,7 @@ nav .home-link {
 }  
 .header-lbl:hover {
   border: unset !important;
-  cursor: none;
+  cursor: none !important;
 } 
 .dark-mode .links-container {
   background: linear-gradient(#1F242D, aqua 120%);
@@ -218,12 +218,12 @@ nav .home-link {
 .links-container a:active {
     color: aqua;
 }
-.dark-mode .links-container a:active {
-    color: aqua !important;
-    transition: 0.3s ease;
-}
 .dark-mode .links-container a:hover {
     color: white !important;
+    transition: 0.3s ease;
+}
+.dark-mode .links-container a:active {
+    color: aqua !important;
     transition: 0.3s ease;
 }
 .links-container a::after {
@@ -1458,7 +1458,6 @@ body.dark-mode {
   transition: 0.3s ease;
 }
 
-.dark-mode .links-container a:hover,
 .dark-mode .home-link:hover {
   color: aqua !important;
   transition: 0.3s ease !important;
