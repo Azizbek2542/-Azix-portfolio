@@ -188,7 +188,7 @@ nav .home-link {
         z-index: 10;
         width: 300px;   
 
-        background: linear-gradient(#ececec);
+        background: #ececec !important;
         box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
         transition: right 1s ease-in-out;
 }  
@@ -197,7 +197,7 @@ nav .home-link {
   cursor: none !important;
 } 
 .dark-mode .links-container {
-  background: linear-gradient(#1F242D, aqua 120%);
+  background: linear-gradient(#1F242D, aqua 120%) !important;
 }
 .links-container a {
     box-sizing: border-box;
@@ -1494,5 +1494,36 @@ body.dark-mode {
   .moon {
     left: 61px;
   }
+}
+
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 22px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  width: 400px;
+  height: 300px;
+}
+
+.project-card:hover {
+  box-shadow: none !important; 
+  transition: 0.1s;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+.dark-mode .project-card {
+  box-shadow: 0 4px 25px black;
 }
 

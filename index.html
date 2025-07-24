@@ -6,6 +6,7 @@
     <title>Azix Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 </head>
 <body>
   <div id="intro-wrapper">
@@ -104,7 +105,11 @@
             <div id="Portfolio" class="Project-container">
               <h1 data-aos="zoom-in" data-aos-duration="1000">Latest <span class="aqua-title2">Project</span></h1>
               <div class="parent-container3">
-                <img data-aos="zoom-in" src="./imgs/projects.png" alt="">
+                <div class="project-card">
+                    <a href="./imgs/Azix-portfolio.png" data-fancybox="gallery">
+                        <img src="./imgs/Azix-portfolio.png" alt="Project 1" aria-placeholder="Azix-portfolio">
+                    </a>
+                </div>
                 <img data-aos="zoom-in" src="./imgs/projects.png" alt="">
                 <img data-aos="zoom-in" src="./imgs/projects.png" alt="">
                 <img data-aos="zoom-in" src="./imgs/projects.png" alt="">
@@ -129,7 +134,7 @@
         </main>
         <footer>
           <p>Copyright © 2025 by Codehal | All Rights Reserved.</p>
-          <div class="up-btn"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/></svg></a></div>
+          <a href="#"><div class="up-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-160v-487L216-423l-56-57 320-320 320 320-56 57-224-224v487h-80Z"/></svg></div></a>
         </footer>
     </section>
 
@@ -231,5 +236,10 @@
 
 
 <script src="main.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 </body>
 </html>
